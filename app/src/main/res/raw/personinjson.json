@@ -1,0 +1,24 @@
+{
+  "name": "Charles",
+  "bloodVolume": 2,
+  "speed": 110.5,
+  "canFly": false,
+  "bag": {
+    "name": "small bag",
+    "capacity": 100
+  },
+  "weapons": [
+    {
+      "name": "axe",
+      "damage": 100
+    },
+    {
+      "name": "gun",
+      "damage": 500
+    }
+  ],
+  "accessories": [
+    "T-shirt",
+    "pants"
+  ]
+}

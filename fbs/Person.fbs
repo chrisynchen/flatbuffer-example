@@ -1,0 +1,23 @@
+namespace com.chris.flatbuffer_example.data;
+
+table Person {
+    name: string;
+    bloodVolume: int;
+    speed: double;
+    canFly: bool;
+    bag: Bag;
+    weapons: [Weapon];
+    accessories: [string];
+}
+
+table Weapon {
+    name: string;
+    damage: int;
+}
+
+table Bag {
+    name: string;
+    capacity: short;
+}
+
+root_type Person;
